@@ -1,0 +1,17 @@
+﻿<html>
+<body>
+    <h3>
+        Month :
+        @{
+            int i = 1;
+        }
+
+        @foreach (string month in Model)
+        {
+            <text>@i) @month </text>
+            i++;
+        }
+        <br />
+    </h3>
+</body>
+</html>
